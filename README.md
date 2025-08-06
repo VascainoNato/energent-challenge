@@ -1,7 +1,8 @@
 # Energent Oil Drilling Dashboard
 
-**Author:** Rafael Pereira Satyro
-**Currently Hosted::** Vercell
+- **Author:** Rafael Pereira Satyro
+- **Video:** https://youtu.be/4Z3tiDGy2Zg
+- **Currently Hosted:** [Vercell](https://energent-challenge-woad.vercel.app/)
 
 ---
 
