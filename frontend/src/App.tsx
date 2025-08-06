@@ -14,8 +14,6 @@ function App() {
   const handleNavigate = (page: 'wells' | 'chat' | 'main') => {
     setCurrentPage(page);
   };
-
-  console.log('teste')
   const renderMobileContent = () => {
     switch (currentPage) {
       case 'wells':

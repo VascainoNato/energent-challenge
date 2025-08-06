@@ -14,9 +14,6 @@ export const useChartData = ({ data, zoomLevel, dataKey = 'default' }: UseChartD
     if (data.length === 0) return 'empty';
     return `${dataKey}-${data.length}-${data[0].depth}-${data[data.length - 1].depth}-${zoomLevel}`;
   }, [data, dataKey, zoomLevel]);
-
-  console.log('teste');
-
   const processedData = useMemo(() => {
     const cached = dataCache.current.get(cacheKey);
     if (cached) {
